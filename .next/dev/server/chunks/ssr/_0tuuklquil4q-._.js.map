@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/user/Desktop/AI-Adventure-world/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///Users/user/Desktop/AI-Adventure-world/src/app/home/components/button/Button.jsx"],"sourcesContent":["\"use client\"\n\nimport { useState } from \"react\"\n\nexport const Button = () => {\n    const [clicked, setClicked] = useState(false)\n    \n    const handleClick = () => {\n        setClicked((prev) => {\n            return !prev\n        })\n        console.log(clicked);\n        \n    }\n    return(\n        <button onClick={handleClick}>\n            {clicked ? \"Clicked\" : \"CLick me\"}\n        </button>\n    )\n}"],"names":["Button","clicked","setClicked","handleClick","prev","console","log","onClick"],"mappings":";;;;;AAEA;AAFA;;;AAIO,MAAMA,SAAS;IAClB,MAAM,CAACC,SAASC,WAAW,GAAG,IAAA,iNAAQ,EAAC;IAEvC,MAAMC,cAAc;QAChBD,WAAW,CAACE;YACR,OAAO,CAACA;QACZ;QACAC,QAAQC,GAAG,CAACL;IAEhB;IACA,qBACI,8OAAC;QAAOM,SAASJ;kBACZF,UAAU,YAAY;;;;;;AAGnC"}}]
+}
